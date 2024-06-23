@@ -16,6 +16,12 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CardBuscaComponent } from './shared/card-busca/card-busca.component';
 import { MatCardModule } from '@angular/material/card';
 import { CardDepoimentoComponent } from './shared/card-depoimento/card-depoimento.component';
+import { FormBuscaComponent } from './shared/form-busca/form-busca.component';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatIconModule } from '@angular/material/icon';
+import { MatChipsModule } from '@angular/material/chips';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -28,6 +34,7 @@ import { CardDepoimentoComponent } from './shared/card-depoimento/card-depoiment
     HomeComponent,
     CardBuscaComponent,
     CardDepoimentoComponent,
+    FormBuscaComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,6 +44,11 @@ import { CardDepoimentoComponent } from './shared/card-depoimento/card-depoiment
     MatButtonModule,
     FontAwesomeModule,
     MatCardModule,
+    MatButtonToggleModule,
+    MatIconModule,
+    MatChipsModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
