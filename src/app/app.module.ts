@@ -33,6 +33,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { ModalComponent } from './shared/modal/modal.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SelectorPassageiroComponent } from './shared/selector-passageiro/selector-passageiro.component';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { SelectorPassageiroComponent } from './shared/selector-passageiro/select
     HomeComponent,
     ModalComponent,
     SelectorPassageiroComponent,
+    LoginComponent,
   ],
   imports: [
     AppRoutingModule,
