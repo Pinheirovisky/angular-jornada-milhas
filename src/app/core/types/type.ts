@@ -4,3 +4,15 @@ export interface Promocao {
   imagem: string;
   preco: number;
 }
+
+export interface UnidadeFederativa {
+  id: number;
+  nome: string;
+  sigla: string;
+}
+
+export interface Depoimento {
+  avatar: string;
+  texto: string;
+  autor: string;
+}

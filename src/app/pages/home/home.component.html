@@ -9,17 +9,5 @@
     <app-card-busca *ngFor="let item of promocoes" [promocao]="item" />
   </div>
   <h2>Depoimentos</h2>
-  <div class="card-wrapper">
-    <app-card-depoimento></app-card-depoimento>
-    <app-card-depoimento
-      img="assets/imagens/avatar2.png"
-      text="Recomendo fortemente a agência de viagens Jornada. Eles oferecem um serviço personalizado e de alta qualidade que excedeu minhas expectativas em minha última viagem."
-      nome="Talita Magalhães"
-    ></app-card-depoimento>
-    <app-card-depoimento
-      img="assets/imagens/avatar3.png"
-      text="Minha viagem com a Jornada foi incrível! Recomendo muito a agência para quem busca uma experiência emocionante e personalizada a partir das nossas necessidades."
-      nome="Mariana Faustino"
-    ></app-card-depoimento>
-  </div>
+  <app-depoimentos></app-depoimentos>
 </app-container>
