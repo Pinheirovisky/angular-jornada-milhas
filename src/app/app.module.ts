@@ -32,6 +32,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { ModalComponent } from './shared/modal/modal.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SelectorPassageiroComponent } from './shared/selector-passageiro/selector-passageiro.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     HeaderComponent,
     HomeComponent,
     ModalComponent,
+    SelectorPassageiroComponent,
   ],
   imports: [
     AppRoutingModule,
